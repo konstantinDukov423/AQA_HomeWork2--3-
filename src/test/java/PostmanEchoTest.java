@@ -18,7 +18,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Продам гараж"))
+                .body("data", equalTo("Пасхалка для ревьювера. А как посмотреть в IDEA сам респонс ответ? Пришлось смотреть через постман, т.к тут не нашёл где"))
         ;
     }
 }
